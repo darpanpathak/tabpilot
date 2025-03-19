@@ -8,8 +8,8 @@ if (!supabaseUrl || !supabaseAnonKey) {
     'Missing Supabase environment variables. Please connect to Supabase using the "Connect to Supabase" button.'
   );
   // Provide default values for development
-  const defaultUrl = 'http://localhost:54321';
-  const defaultAnonKey =    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHQiOiIxMjM0NTY3ODkwIn0.625_WdcF3KHqz5amU0x2X5WWHP-OEs_4qj0ssLNHzTs';
+  const defaultUrl = 'https://qhxkrnyenfmqorxzbmej.supabase.co';
+  const defaultAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFoeGtybnllbmZtcW9yeHpibWVqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIzODI2NjgsImV4cCI6MjA1Nzk1ODY2OH0.nInnzlE3pJCCEJqpVXswlEWp4iGi_DAfa4tHuZ44dOg';
 
   console.warn('Using default development credentials');
   supabaseUrl = defaultUrl;

@@ -70,8 +70,7 @@ function App() {
             onClick={() => signIn()} 
             className="bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg backdrop-blur-sm flex items-center gap-2"
           >
-            <img src="https://www.google.com/favicon.ico" alt="Google" className="w-4 h-4" />
-            Sign in with Google
+            Sign in
           </button>
         )}
       </div>
